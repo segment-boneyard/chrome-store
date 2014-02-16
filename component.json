@@ -1,0 +1,14 @@
+{
+  "name": "chrome-store",
+  "repo": "segmentio/chrome-store",
+  "description": "tiny wrapper around chrome.storage",
+  "keywords": ["chrome", "store", "storage"],
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "dependencies": {
+    "visionmedia/debug": "*",
+    "component/emitter": "*"
+  }
+}
