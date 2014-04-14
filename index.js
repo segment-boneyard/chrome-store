@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -92,7 +91,7 @@ Store.prototype.end = function(fn){
     var err = runtime.lastError;
     var key = keys[0];
     if (err) return fn(err);
-    if (1 == length) return fn(null, value[key]);
+    if (args.length === 1) return fn(null, value[key]);
     fn.apply(null, [null].concat(args));
   }
 };
